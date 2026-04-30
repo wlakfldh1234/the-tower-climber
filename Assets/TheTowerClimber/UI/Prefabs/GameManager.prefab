@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2716333082387568033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6107682452862252231}
+  - component: {fileID: 895309474334141512}
+  - component: {fileID: 8033319284655628279}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6107682452862252231
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2716333082387568033}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 924.82983, y: 330.6092, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &895309474334141512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2716333082387568033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22ace05cd478e1a47b656d86b62f6208, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  currentStage: 1
+  playerGold: 0
+  goldRewardPerStage: 6400000096000000c8000000fa0000002c0100006400000096000000c8000000fa0000002c010000
+  savedMaxHP: 100
+  savedMoveSpeed: 3
+  savedJumpForce: 5
+  savedHasShield: 0
+  savedInventory: []
+  isCountingDown: 0
+--- !u!114 &8033319284655628279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2716333082387568033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6e02a12e58c8db4fb224ee479f72d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SoundManager
+  bgmSlider: {fileID: 0}
+  sfxSlider: {fileID: 0}
+  titleBGM: {fileID: 8300000, guid: fcea9ebc480444fb187bf68e875a2563, type: 3}
+  gameBGM: {fileID: 8300000, guid: 355aef800e8f245a69476b27b78e7c90, type: 3}
+  buttonClickSFX: {fileID: 8300000, guid: 72f4e6017e8184f7aa190b68fdc420ed, type: 3}
+  jumpSFX: {fileID: 8300000, guid: 4454f3d0b42e99a409dde29ae9117733, type: 3}
+  hitSFX: {fileID: 8300000, guid: 98876cbaadc7c49498af7c11dd7f3b84, type: 3}
+  gameOverSFX: {fileID: 8300000, guid: f062dd046a823514f813ad7904c8e993, type: 3}
+  stageClearSFX: {fileID: 8300000, guid: af20d056cf7bb1f43b860464fae2b8dc, type: 3}
+  purchaseSFX: {fileID: 8300000, guid: d02cb7ce92ca919419ce1351c7de6d62, type: 3}
+  refundSFX: {fileID: 8300000, guid: d28c5bd83f565bb45a67615b3541cd18, type: 3}
