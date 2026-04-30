@@ -112,6 +112,8 @@
 ---
 
 ## 📁 폴더 구조
+
+```
 Assets/
 ├── Scenes/
 │   ├── Title.unity
@@ -141,6 +143,7 @@ Assets/
 ├── Animations/
 ├── Sprites/
 └── Audio/
+```
 ---
 
 ## 👤 개발자
